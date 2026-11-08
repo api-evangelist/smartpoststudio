@@ -1,0 +1,30 @@
+aid: smartpoststudio
+name: Smart Post Studio
+description: 'Smart Post Studio is a company surfaced via the API Evangelist harvest backlog (source:
+  new-submission) and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/smartpoststudio/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-08'
+modified: '2026-11-08'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://smartpoststudio.com
+- type: Documentation
+  url: https://smartpoststudio.com/mcp
+x-submission-notes: 'Smart Post Studio is a social media scheduler (Instagram, Threads, TikTok, X, Facebook,
+  YouTube, LinkedIn, Fanvue). We publish a remote MCP server, not a public REST API: https://app.smartpoststudio.com/v1/mcp
+  (streamable HTTP; OAuth sign-in or Authorization: Bearer token). Tools: list_workspaces, g'
+x-submission-probe: 2026-11-07 200 https://smartpoststudio.com/ ctl=404
+x-submitted-by: support@smartpoststudio.com (submission, 2026-11-07)
